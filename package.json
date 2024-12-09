@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Tanya8135.github.io/test-react-bd/",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
