@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://Tanya8135.github.io/test-react-bd/",
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@react-icons/all-files": "^4.1.0",
     "@redux-devtools/extension": "^3.3.0",
     "@reduxjs/toolkit": "^2.2.7",
@@ -37,11 +36,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "lint:js": "eslint src/**/*.{js,jsx}",
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [
